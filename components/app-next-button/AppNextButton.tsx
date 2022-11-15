@@ -1,5 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
+import { Colors } from 'react-native/Libraries/NewAppScreen'
 type AppNextButtonProps={
   backgroundColor: string,
   textColor:string,
@@ -11,7 +12,7 @@ export const AppNextButton:React.FC<AppNextButtonProps>= (props:AppNextButtonPro
   const{backgroundColor,textColor,borderRadius,text,type}=props
  const styleComponent={
   container:type=="link" ? [] : {backgroundColor: backgroundColor},
-  text:{color:textColor,borderBottomColor:"blue",borderBottomWidth:5}
+  text:{color:"black",borderBottomColor:"blue",borderBottomWidth:5}
 
 
  }

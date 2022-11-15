@@ -22,5 +22,6 @@ type AppNextButtonBackground   = ComponentStory<typeof AppNextButton>;
 
 export const ButtonWithBackground: AppNextButtonBackground  = (args) => (<AppNextButton{...args} />);
 export const ButtonLink: AppNextButtonBackground  = (args) => <AppNextButton{...args} />;
-ButtonLink.args = {...ButtonWithBackground.args, type: "link"}
+ButtonLink.args = {...ButtonWithBackground.args, type: "link",textColor:"#00000"}
+
 
