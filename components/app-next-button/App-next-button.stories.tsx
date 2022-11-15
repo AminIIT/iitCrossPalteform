@@ -24,4 +24,4 @@ export const ButtonWithBackground: AppNextButtonBackground  = (args) => (<AppNex
 export const ButtonLink: AppNextButtonBackground  = (args) => <AppNextButton{...args} />;
 ButtonLink.args = {...ButtonWithBackground.args, type: "link",textColor:"#00000"}
 
-ButtonWithBackground.args={...ButtonWithBackground.args,borderRadius:"10",textColor:"#ffffff",type:"button"}
+ButtonWithBackground.args={...ButtonWithBackground.args,borderRadius:"10",textColor:"#000000",type:"button"}
